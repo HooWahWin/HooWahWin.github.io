@@ -6,7 +6,6 @@ import { CgNotes } from "react-icons/cg";
 import { DiJava, DiPython, DiReact } from "react-icons/di";
 
 import Image from "next/image";
-import profilepic from "../public/IMG_4171";
 
 export default function Home() {
   return (
@@ -55,7 +54,7 @@ export default function Home() {
           </div>
 
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden">
-            <Image src={profilepic} layout="fill" objectFit="cover" />
+            <Image src="/IMG_4171.jpg" layout="fill" objectFit="cover" />
           </div>
         </section>
         {/* second page */}
