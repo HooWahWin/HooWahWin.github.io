@@ -6,7 +6,7 @@ import { CgNotes } from "react-icons/cg";
 import { DiJava, DiPython, DiReact } from "react-icons/di";
 
 import Image from "next/image";
-// import profilepic from "../public/IMG_4171.jpg";
+import profilepic from "../public/IMG_4171.jpg";
 
 export default function Home() {
   return (
@@ -53,10 +53,9 @@ export default function Home() {
               <AiFillLinkedin />
             </a>
           </div>
-
-          {/* <div className=" relative rounded-full w-80 h-80 object-cover mx-auto mt-20 overflow-hidden">
+          <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden">
             <Image src={profilepic} layout="fill" objectFit="cover" />
-          </div> */}
+          </div>
         </section>
         {/* second page */}
 
