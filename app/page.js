@@ -6,7 +6,7 @@ import { CgNotes } from "react-icons/cg";
 import { DiJava, DiPython, DiReact } from "react-icons/di";
 
 import Image from "next/image";
-import profilepic from "../public/IMG_4171.jpg";
+import profilepic from "../public/IMG_4171";
 
 export default function Home() {
   return (
