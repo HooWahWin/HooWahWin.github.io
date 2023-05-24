@@ -53,6 +53,7 @@ export default function Home() {
               <AiFillLinkedin />
             </a>
           </div>
+
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden">
             <Image src={profilepic} layout="fill" objectFit="cover" />
           </div>
