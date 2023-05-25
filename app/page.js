@@ -54,7 +54,7 @@ export default function Home() {
             </a>
           </div>
 
-          <img src="/IMG_4171.jpg" alt="profile pic" className="w-80 h-80 mx-auto mt-20 rounded-full object-cover" />
+          <img src="../IMG_4171.JPG" alt="profile pic" className="w-80 h-80 mx-auto mt-20 rounded-full object-cover" />
         </section>
         {/* second page */}
 
