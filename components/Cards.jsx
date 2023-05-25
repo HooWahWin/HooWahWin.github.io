@@ -14,12 +14,12 @@ const Cards = () => {
             </p>
           </div>
 
-          <div className="grid lg:grid-cols-3 gap-10 ">
+          <div className="grid min-[1600px]:grid-cols-3 gap-10 ease-in-out">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-50 dark:bg-zinc-300 duration-300 dark:shadow-teal-500/40">
               <span className="flex justify-center">
                 <CgNotes className="text-[8rem] text-green-600" />
               </span>
-              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-gray-300">classes currently taking</h3>
+              <h3 className="text-lg font-medium pt-8 pb-7 dark:text-neutral-800">classes currently taking</h3>
               <div className="grid grid-cols-1 gap-8">
                 <div className=" py-4 rounded-lg ease-in-out hover:scale-110 shadow-green-300 dark:shadow-green-600 shadow-md duration-300 bg-gradient-to-r from-teal-100 to-emerald-100 dark:from-green-400 dark:to-emerald-400 dark:text-gray-900">csc 3102: advanced data structures</div>
                 <div className=" py-4 rounded-lg ease-in-out hover:scale-110 shadow-green-300 dark:shadow-green-600 shadow-md duration-300 bg-gradient-to-r from-teal-100 to-emerald-100 dark:from-green-400 dark:to-emerald-400 dark:text-gray-900">csc 2259: discrete structures</div>
@@ -49,7 +49,7 @@ const Cards = () => {
               </span>
               <h3 className="text-lg font-medium pt-8 pb-2">technologies known</h3>
               <p className="py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-              <div className='grid grid-cols-2 grid-rows-2 pt-10 mx-auto gap-4 text-center'>
+              <div className='grid md:grid-cols-2 md:grid-rows-2 grid-cols-1 grid-rows-1  pt-10 gap-4 text-center'>
                 <div className=' text-center mx-auto py-4 px-6 shadow-lg ease-in-out shadow-gray-700/30 rounded-lg hover:scale-110 duration-300'><DiJava className='text-8xl'/>Java</div>
                 <div className='text-center mx-auto py-4 px-6 shadow-lg ease-in-out shadow-gray-700/30 rounded-lg hover:scale-110 duration-300'><DiPython className='text-8xl'/>Python</div>
                 <div className='text-center mx-auto py-4 px-6 shadow-lg ease-in-out shadow-gray-700/30 rounded-lg hover:scale-110 duration-300'><DiReact className='text-8xl'/>React</div>
