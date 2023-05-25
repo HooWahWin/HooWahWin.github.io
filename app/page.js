@@ -6,6 +6,7 @@ import Head from "next/head";
 import Hero from "/components/Hero";
 import Cards from "/components/Cards";
 import Navbar from "/components/Navbar";
+// test comment
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
