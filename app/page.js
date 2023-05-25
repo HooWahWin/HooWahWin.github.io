@@ -3,7 +3,6 @@
 import { useState } from "react";
 import React from "react";
 import Head from "next/head";
-import { DiJava, DiPython, DiReact } from "react-icons/di";
 import Hero from "/components/Hero";
 import Cards from "/components/Cards";
 import Navbar from "/components/Navbar";
@@ -12,7 +11,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
 
   return (
-    <div className={darkMode ? "dark" : "" + "pb-40"}>
+    <div className={darkMode ? "dark" : "" + "pb-40 no-scrollbar"}>
       <Head>
         <title>Hoa Nguyen Portfolio</title>
         <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png" />
