@@ -5,8 +5,8 @@ import { SiAdobephotoshop, SiKotlin } from "react-icons/si";
 import { CgNotes } from "react-icons/cg";
 import { DiJava, DiPython, DiReact } from "react-icons/di";
 
-import Image from "next/image";
-import IMG_4171 from "../public/IMG_4171.jpg";
+// import Image from "next/image";
+// import IMG_4171 from "../public/IMG_4171.jpg";
 
 export default function Home() {
   return (
@@ -54,9 +54,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden">
-            <Image src={IMG_4171} layout="fill" objectFit="cover" unoptimized />
-          </div>
+          <img src="/IMG_4171.jpg" alt="profile pic" className="w-80 h-80 mx-auto mt-20 rounded-full object-cover" />
         </section>
         {/* second page */}
 
