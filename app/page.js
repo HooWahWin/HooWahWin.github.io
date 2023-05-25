@@ -80,7 +80,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2">classes currently taking</h3>
               <div className="grid grid-cols-1 gap-4">
                 <div className=" py-3 rounded-lg shadow-md duration-300 bg-gray-200 hover:bg-gray-100 dark:bg-gray-300 dark:hover:bg-gray-200 cursor-pointer">csc 3102: advanced data structures</div>
-                <div className=" py-3 rounded-lg shadow-md duration-300 bg-gray-200 hover:bg-gray-100 dark:bg-gray-300 dark:hover:bg-gray-200 cursor-pointer">csc 2259: advanced data structures</div>
+                <div className=" py-3 rounded-lg shadow-md duration-300 bg-gray-200 hover:bg-gray-100 dark:bg-gray-300 dark:hover:bg-gray-200 cursor-pointer">csc 2259: descrete structures</div>
                 <div className=" py-3 rounded-lg shadow-md duration-300 bg-gray-200 hover:bg-gray-100 dark:bg-gray-300 dark:hover:bg-gray-200 cursor-pointer">
                   math 2090: differential equations & linear algebra
                 </div>
