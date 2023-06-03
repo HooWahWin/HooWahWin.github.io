@@ -6,6 +6,7 @@ import Head from "next/head";
 import Hero from "/components/Hero";
 import Cards from "/components/Cards";
 import Navbar from "/components/Navbar";
+import Overview from "/components/Overview";
 // test comment
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
           <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
           <Hero />
         </section>
-
+        <Overview />
         <Cards />
       </main>
     </div>
