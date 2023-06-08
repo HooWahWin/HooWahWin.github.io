@@ -1,5 +1,5 @@
 import React from "react";
-import PopupRender from "./PopupRender";
+import PopupRender from "../../components/PopupRender";
 
 const Art = () => {
   return <PopupRender />;
