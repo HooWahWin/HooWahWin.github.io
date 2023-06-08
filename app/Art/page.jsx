@@ -2,7 +2,7 @@ import React from "react";
 import PopupRender from "./PopupRender";
 
 const Art = () => {
-  return <PopupRender>Hello</PopupRender>;
+  return <PopupRender />;
 };
 
 export default Art;

@@ -10,7 +10,6 @@ import Overview from "/components/Overview";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
-  const [popup, setPopup] = useState(false);
   return (
     <div className={darkMode ? "dark" : "" + "pb-40 no-scrollbar"}>
       <Head>
