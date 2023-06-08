@@ -9,7 +9,7 @@ import { CARD_DETAILS } from "./CardDetails";
 const Cards = () => {
   return (
     <section>
-      <div className="grid min-[1600px]:grid-cols-3 md:gap-10">
+      <div className="grid min-[1600px]:grid-cols-3 md:gap-14 ">
         {CARD_DETAILS.map((card) => {
           return <Card data={card} />;
         })}

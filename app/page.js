@@ -7,11 +7,10 @@ import Hero from "/components/Hero";
 import Cards from "/components/Cards";
 import Navbar from "/components/Navbar";
 import Overview from "/components/Overview";
-// test comment
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
-
+  const [popup, setPopup] = useState(false);
   return (
     <div className={darkMode ? "dark" : "" + "pb-40 no-scrollbar"}>
       <Head>
