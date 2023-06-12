@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import PopupRender from "./PopupRender";
 import Modal from "./Modal";
 
 const Card = (props) => {

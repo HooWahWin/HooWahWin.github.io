@@ -1,7 +1,11 @@
-import "./globals.css";
+"use client";
+
 import { Poppins } from "next/font/google";
+import { createContext } from "react";
+import { useState } from "react";
 
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
+export const ThemeContext = createContext();
 
 export const metadata = {
   title: "Hoa Nguyen Portfolio",
@@ -9,9 +13,12 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  const [darkMode, setDarkMode] = useState(true);
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <ThemeContext.Provider value={{ darkMode, setDarkMode }}>
+        <body className={poppins.className + " " + (darkMode ? "scrollbar" : "scrollbar-light")}>{children}</body>
+      </ThemeContext.Provider>
     </html>
   );
 }
